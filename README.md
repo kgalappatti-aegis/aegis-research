@@ -13,8 +13,8 @@ frameworks, and the threat-modeling approaches) for public reference and citatio
 
 ## Publications
 
-### Polymorphic Attack Chains: Autonomous Detection, Simulation & Defense
-**March 2026 · Version 1.0**
+### Defending Against Polymorphic Attack Chains: How Autonomous Adversarial Simulation Closes the Detection Gap
+**April 2026 · Version 2.0**
 
 [→ Download PDF](./polymorphic-attack-chains/Adversarix_Polymorphic_Attack_Chains_Whitepaper.pdf)
 
@@ -23,14 +23,18 @@ repertoires and rotate between them in response to what your detection stack cat
 This paper examines how the Adversarix platform addresses polymorphic attack chains
 through a six-agent autonomous pipeline built on a live Threat Knowledge Graph, running
 five distinct adversarial simulation strategies and Monte Carlo probability modeling to
-characterize the full adversarial option space, not just a single representative path.
+characterize the full adversarial option space, not just a single representative path. It
+also details the platform's procedure-level fidelity (sub-technique execution modules
+parameterized to named-actor procedures) and walks an end-to-end critical-CVE response
+from disclosure to advisory in under 90 seconds.
 
 **Key findings:**
 - Reduced mean time from threat indicator ingestion to actionable advisory from 4–8 analyst hours to under 90 seconds
 - Increased simulated attack path coverage by more than 300% vs. manual simulation workflows
-- Evasion-first polymorphic chains demonstrated 34% higher Monte Carlo success probability when unpatched CVEs are present
+- A critical RCE CVE on a perimeter mail server raised Monte Carlo campaign success probability by 34% across all polymorphic kill chain variants
+- Procedure-intelligence extraction validated at F1 > 0.89 on structured incident-response reports, grounding simulation at sub-technique granularity
 
-**Topics:** polymorphic kill chain taxonomy · five-strategy simulation framework · Monte Carlo probability modeling · tactic-level detection gap analysis · LLM integration architecture · human-in-the-loop governance
+**Topics:** polymorphic kill chain taxonomy · five-strategy simulation framework · Monte Carlo probability modeling · procedure-level fidelity & actor emulation · detection gap analysis · human-in-the-loop governance
 
 ---
 
