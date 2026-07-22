@@ -129,9 +129,17 @@ https://github.com/kgalappatti-aegis/aegis-labs
 
 ## License
 
-© 2026 Adversarix, Inc. These whitepapers are released for public reference and citation.
-Reproduction in whole or in part requires attribution. No rights are granted to the
-Adversarix platform software or its implementation.
+© 2026 Adversarix, Inc.
+
+**Code** released through AEGIS Labs is dual-licensed under either the
+[Apache License, Version 2.0](./LICENSE-APACHE) or the [MIT License](./LICENSE-MIT),
+at your option. Unless you explicitly state otherwise, any contribution intentionally
+submitted for inclusion in this repository shall be dual-licensed as above, without
+any additional terms or conditions.
+
+**Whitepapers** are released for public reference and citation. Reproduction in whole
+or in part requires attribution. No rights are granted to the Adversarix platform
+software or its implementation.
 
 Third-party corpora referenced in the research (TRAM, Apache 2.0; AnnoCTR, CC-BY-SA-4.0)
 remain under their respective licenses. MITRE ATT&CK is a trademark of The MITRE
